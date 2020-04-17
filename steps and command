@@ -6,3 +6,18 @@ Step 2: For creating a project in django
 
 Step 3: For creating an app in the project
     Command: django-admin startapp trial (trial is name of app and can be changed as user choice)
+
+Step 4: Make migration
+    {check your file directory before using manage.py // in this case type cd basic}
+    Command: python manage.py migrate
+
+Step 5: Activate Admin panel
+    Command: python manage.py createsuperuser
+    {this gives acess to the admin panel}
+    {Ctrl + c is used to break the command line}
+
+Step 6: To run the project in server
+    Command: python manage.py runserver
+    { http://127.0.0.1:8000/ this lead to our homepage
+        http://127.0.0.1:8000/admin/login/?next=/admin/ this is url for admin login panel}
+
