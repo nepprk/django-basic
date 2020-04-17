@@ -1,0 +1,8 @@
+Step 1: To start a project in django you need to install python and the first step will be
+    Command : pip install django (This will install django package to your system)
+
+Step 2: For creating a project in django
+    Command: django-admin startproject basic (basic is name of project and user can choose any as per their wish)
+
+Step 3: For creating an app in the project
+    Command: django-admin startapp trial (trial is name of app and can be changed as user choice)
